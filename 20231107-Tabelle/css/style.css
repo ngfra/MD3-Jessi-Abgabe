@@ -1,0 +1,33 @@
+* {
+    margin: 20px auto;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+/* Tabelle */
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+th {
+    border-bottom: 2px solid black;
+    padding: 10px;
+    color: green;
+    font-size: 18px;
+}
+
+td {
+    border: 1px solid black;
+    height: 20px;
+    padding: 5px 0 5px 5px;
+    width: 50%;
+}
+
+td:last-child {
+    text-align: right;
+    padding-right: 5px;
+}
