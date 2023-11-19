@@ -1,2 +1,3 @@
 # Alle Programmierung Abgabe von Jessi
-- Tabelle erstellen mit JavaScrip am 
+- Tabelle erstellen mit JavaScrip am 07.11.2023
+- Mit Hilfe von JavaScript, Bild im Header soll an den aktuellen Monat anpassen, auch H1. Am 14.11.2023
