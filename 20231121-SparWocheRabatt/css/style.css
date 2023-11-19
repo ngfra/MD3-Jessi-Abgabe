@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.8rem;
+    font-family: sans-serif;
+}
+
+#container, .container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+/* style header */
+header {
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    align-items: center;
+    
+}
+
+/* style input & button */
+label {
+    font-size: 2rem;
+}
+
+input {
+    height: 4rem;
+    width: 8rem;
+    border: #E40613 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+input[type="number"]{
+    font-size: 2rem;
+    padding-left: .5rem;
+}
+
+.btn {
+    font-size: 1.6rem;
+    padding: 1rem;
+    color: #fff;
+    background-color: #E40613;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+
+
+h1 {
+    font-size: 6rem;
+    text-align: center;
+    color: #fff;
+    background-color: #E40613;
+    padding: 1rem 0;
+    margin: 2rem 0;
+}
+
+.container__angebot {
+    height: 400px;
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 2rem;
+}
+
+.container__angebot--img {
+    width: 50%;
+}
+
+.container__angebot--titel {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 4rem;
+    width: 200px;
+}
+
+.container__angebot--text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    position: relative;
+    width: 30rem;
+    color: #ffffff;
+}
+
+.container__angebot--text::after {
+    content:'';
+    height: 30rem;
+    width: 30rem;
+    background-color: #E40613;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    border-radius: 50%;
+
+}
+
+.container__angebot--text::before {
+    content: ' ausgenommen sind: Säuglingsanfangsnahrung, S-BUDGET, Tchibo/Eduscho,Tiernahrung, Pfand/Flascheneinsatz';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 20%);
+    line-height: 1.4;
+    text-align: center;
+    font-size: 1.2rem;
+}
