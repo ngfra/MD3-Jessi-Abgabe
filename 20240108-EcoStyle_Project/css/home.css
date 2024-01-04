@@ -1,0 +1,61 @@
+:root {
+    --primary-color: #567920;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+/* style header */
+.monatbild {
+    position: relative;
+    
+    margin: 100px;
+}
+
+header {
+    height: 100vh;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.header__titel {
+    margin-top: 240px;
+}
+
+h1, .h1 {
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size: 60px;
+}
+
+/* section */
+section {
+    margin: 100px 0;
+}
+
+
+.newsletter {
+    background-color: var(--primary-color );
+    height:240px;
+    width: 100%;
+    color: var(--white);
+}
+
+.input-left {
+    border-radius: 15px 0 0 15px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+}
+
+.input-right {
+    border-radius: 0 15px 15px 0;
+    height: 42px;
+    background-color: var(--white);
+}
+
+@media (max-width: 768px) {
+   .h1 {
+    color: var(--black);
+   }
+}

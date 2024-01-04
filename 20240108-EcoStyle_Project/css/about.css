@@ -1,0 +1,44 @@
+:root {
+    --primary-color: #567920;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+
+.about-container {
+    max-width: 810px;
+    margin: 0 auto;
+}
+
+.col-md-6-about {
+    padding: 0 50px;
+}
+
+
+.border-img{
+    position: relative;
+}
+
+.border-img::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 100%;
+    background-color: var(--primary-color);
+    top: 0;
+    left: 0;
+}
+
+.border-img-right {
+    position: relative;
+}
+
+.border-img-right::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 100%;
+    background-color: var(--primary-color);
+    top: 0;
+    right: 0;
+}
