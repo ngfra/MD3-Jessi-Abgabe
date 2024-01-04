@@ -29,10 +29,10 @@
                             <!-- nav links -->
                             <div class="navbar-collapse justify-content-end collapse" id="navbarNavAltMarkup" >
                                 <div class="navbar-nav site-nav-link d-flex">
-                                    <a class="d-flex justify-content-center" href="products.html">Produkte</a>
-                                    <a class="d-flex justify-content-center" href="shop.html">Shop</a>
-                                    <a class="d-flex justify-content-center" href="aboutus.html">Über uns</a>
-                                    <a class="d-flex justify-content-center" href="contact.html">Kontakt</a>
+                                    <a class="d-flex justify-content-center" href="products.php">Produkte</a>
+                                    <a class="d-flex justify-content-center" href="shop.php">Shop</a>
+                                    <a class="d-flex justify-content-center" href="aboutus.php">Über uns</a>
+                                    <a class="d-flex justify-content-center" href="contact.php">Kontakt</a>
                                 </div>
                             </div>
                         </nav>
