@@ -44,8 +44,13 @@ function updateTotal() {
     } else if (sahRadio.checked) {
         shippingCost = 0;
     }
-    const total = subtotal + tax + shippingCost;
-
+    
+    let total = 0;
+    if (subtotal + tax < 100) {
+      total = subtotal + tax + shippingCost;
+    } else {
+      total = subtotal + tax;
+    }
     // Aktualisiere die Anzeige auf der Webseite
     document.getElementById('zwischensumme').innerText = '€' + subtotal.toFixed(2);
     document.getElementById('mwst').innerText = '€' + tax.toFixed(2);
