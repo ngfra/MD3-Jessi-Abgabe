@@ -83,7 +83,7 @@
                         <p><span class="primary-color">Eco</span> <span class="arizonia">Style</span> - deinem Ziel für stilvolle Nachhaltigkeit!</p>
                         <p>Entdecke eine Welt von Stil und Nachhaltigkeit mit unserer handverlesenen Kollektion an umweltfreundlichen Produkten.</p>
                         <p>Bei uns findest du nicht nur Stofftaschen, sondern auch eine Vielfalt anderer nachhaltiger Schätze, die deinen Lebensstil bereichern werden.</p>
-                        <button><a href="products.html">Unsere Produkte entdecken!</a></button>
+                        <button><a href="products.php">Unsere Produkte entdecken!</a></button>
                     </div>
                     <div class="col-lg-6 mt-3">
                         <img src="imgs/eco-06.jpg" alt="Eco gift" title="Eco gift">
