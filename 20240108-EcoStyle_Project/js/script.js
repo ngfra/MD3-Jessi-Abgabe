@@ -52,7 +52,11 @@ function updateTotal() {
       total = subtotal + tax;
     }
     // Aktualisiere die Anzeige auf der Webseite
-    document.getElementById('zwischensumme').innerText = '€' + subtotal.toFixed(2);
-    document.getElementById('mwst').innerText = '€' + tax.toFixed(2);
-    document.getElementById('gesamt').innerText = '€' + total.toFixed(2);
+  let formattedSubtotal = subtotal.toFixed(2).replace(".", ",");
+  let formattedTax = tax.toFixed(2).replace(".", ",");
+  let formattedTotal = total.toFixed(2).replace(".", ",");
+
+  document.getElementById("zwischensumme").innerText = "€" + formattedSubtotal;
+  document.getElementById("mwst").innerText = "€" + formattedTax;
+  document.getElementById("gesamt").innerText = "€" + formattedTotal;
 }
