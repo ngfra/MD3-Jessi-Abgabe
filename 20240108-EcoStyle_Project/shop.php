@@ -111,7 +111,7 @@
     
                     <div class="col-sm-7 d-flex gap-4">
                         <p class="col-5">Bambus Besteckset <br>
-                            <span class="fw-bold">Farbe:</span> Naturweiß <br>
+                            <span class="fw-bold">Farbe:</span> Grau/Brau <br>
                              <span class="fw-bold">Größe: </span>Onesize </p>
                         <p>€14,90</p>
                         <input class="number" type="number" min="0">
@@ -127,7 +127,7 @@
                     </div>
     
                     <div class="col-sm-7 d-flex gap-4">
-                        <p class="col-5">Bio-Baumwolle Wattepad <br>
+                        <p class="col-5">Zero waste Geschirrschwamm<br>
                             <span class="fw-bold">Farbe:</span> Naturweiß <br>
                              <span class="fw-bold">Größe: </span>Onesize </p>
                         <p>€6,90</p>
@@ -144,8 +144,8 @@
                     </div>
     
                     <div class="col-sm-7 d-flex gap-4">
-                        <p class="col-5">Bio-Baumwolle Wattepad <br>
-                            <span class="fw-bold">Farbe:</span> Naturweiß <br>
+                        <p class="col-5">Bio-Baumwolle Schal <br>
+                            <span class="fw-bold">Farbe:</span> Weiß/Blau <br>
                              <span class="fw-bold">Größe: </span>Onesize </p>
                         <p>€24,90</p>
                         <input class="number" type="number" min="0">
@@ -161,9 +161,9 @@
                     </div>
     
                     <div class="col-sm-7 d-flex gap-4">
-                        <p class="col-5">Bio-Baumwolle Wattepad <br>
+                        <p class="col-5">Geschenkpapier <br>
                             <span class="fw-bold">Farbe:</span> Naturweiß <br>
-                             <span class="fw-bold">Größe: </span>Onesize </p>
+                             <span class="fw-bold">Größe: </span>100x100cm </p>
                         <p>€3,90</p>
                         <input class="number" type="number" min="0">
                     </div>
@@ -178,7 +178,7 @@
                     </div>
     
                     <div class="col-sm-7 d-flex gap-4">
-                        <p class="col-5">Bio-Baumwolle Wattepad <br>
+                        <p class="col-5">Zero waste Binden<br>
                             <span class="fw-bold">Farbe:</span> Naturweiß <br>
                              <span class="fw-bold">Größe: </span>Onesize </p>
                         <p>€9,90</p>
@@ -195,7 +195,7 @@
                     </div>
     
                     <div class="col-sm-7 d-flex gap-4">
-                        <p class="col-5">Bio-Baumwolle Wattepad <br>
+                        <p class="col-5">Bio-Baumwolle Servierte <br>
                             <span class="fw-bold">Farbe:</span> Naturweiß <br>
                              <span class="fw-bold">Größe: </span>Onesize </p>
                         <p>€14,90</p>
@@ -212,8 +212,8 @@
                     </div>
     
                     <div class="col-sm-7 d-flex gap-4">
-                        <p class="col-5">Bio-Baumwolle Wattepad <br>
-                            <span class="fw-bold">Farbe:</span> Naturweiß <br>
+                        <p class="col-5">Bio-Baumwolle Mütze <br>
+                            <span class="fw-bold">Farbe:</span> Olive <br>
                              <span class="fw-bold">Größe: </span>Onesize </p>
                         <p>€19,90</p>
                         <input class="number" type="number" min="0">
@@ -229,7 +229,7 @@
                     </div>
     
                     <div class="col-sm-7 d-flex gap-4">
-                        <p class="col-5">Bio-Baumwolle Wattepad <br>
+                        <p class="col-5">Obst Netzbeutel <br>
                             <span class="fw-bold">Farbe:</span> Naturweiß <br>
                              <span class="fw-bold">Größe: </span>Onesize </p>
                         <p>€2,90</p>
