@@ -1,0 +1,49 @@
+:root {
+    --primary-color: #557920;
+    --black: #000000;
+    --white: #ffffff;
+    --bg: #ecf7da;
+}
+
+/* h2 */
+.h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 120px 0 20px;
+    font-size: 40px ;
+    color: var(--primary-color);
+}
+
+
+button.shop-btn{
+    margin-bottom: 100px;
+}
+/* style accordion */
+.accordion-button {
+    color: var(--primary-color);
+    font-family: 'Josefin Sans';
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    background-color: var(--bg);
+}
+
+
+.accordion-button:not(.collapsed) {
+    color: var(--primary-color);
+    background-color: var(--bg);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../imgs/sort-up-solid.svg);
+    transform: var(--bs-accordion-btn-icon-transform);
+  }
+
+  .accordion-button.collapsed::after {
+    background-image: url(../imgs/sort-up-solid.svg);
+
+  }
+
+  main {
+    margin-bottom: 100px;
+  }

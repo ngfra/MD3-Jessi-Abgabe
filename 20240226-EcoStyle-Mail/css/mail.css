@@ -1,0 +1,12 @@
+:root {
+    --primary-color: #557821;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+.mail__header {
+    padding: 5px 10px;
+    font-size: 24px;
+    color: var(--white);
+    background-color: var(--primary-color);
+}
